@@ -1,0 +1,185 @@
+* {
+	font-family:  sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+h1, h2, h3 {
+	color: #3d3d3d;
+}
+
+.container {
+	width: 1320px;
+	margin: 0 auto;
+}
+
+.separator {
+	display: block;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.header_list {
+	display: flex;
+	padding: 30px 0;
+	list-style: none;
+}
+
+.header_list_text {
+	text-transform: uppercase;
+	margin-right: 35px;
+	font-size: 15px;
+	color: #949494
+}
+
+.wrapp {
+	display: flex;
+}
+
+.receipts_text {
+	font-size: 35px;
+	color: #5b5b5b;
+	margin-top: 25px;
+	text-align: center;
+}
+
+.receipt_box {
+	display: flex;
+	width: 670px;
+	height: 310px;
+	margin-top: 30px;
+	margin-right: 10px;
+	flex-direction: row;
+	border: 1px solid #f3f3f3
+}
+
+.wrapper {
+	padding: 16px;
+	flex-direction: column;	
+}
+
+.wrapper_info {
+	display: flex;
+	flex-direction: row;
+}
+
+.info_box {
+	display: flex;
+	padding: 5px;
+	font-size: 14px;
+	border-radius: 100px;
+	border: 2px solid #f3f3f3;
+	color: #b5904e;
+	margin-right: 12px;
+	margin-top: 5px;
+	align-items: center;
+}
+
+.info_box img {
+	margin-right: 5px;
+}
+
+.receipt_text {
+	margin-top: 20px;
+	width: 310px;
+	color: #5b5b5b;
+}
+
+.social {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	border-top: 1px solid #f3f3f3;
+	align-items: center;
+	padding: 14px 22px;
+	margin-top: 18px;
+}
+
+.likes {
+	display: flex;
+	align-items: center;
+}
+
+.num {
+	margin-left: 10px;
+	color: #9b9b9b;
+}
+
+.logos img {
+	margin-right: 20px;
+}
+
+.hot {
+	text-align: center;
+}
+
+.hot .separator {
+	margin-top: 60px;
+}
+
+.hot_box {
+	margin-top: 60px;
+	display: flex;
+	align-items: flex-end;
+}
+
+.hot_box_item {
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	width: 308px;
+	height: 490px;
+	padding-bottom: 50px;
+	margin-right: 10px;
+	margin-bottom: 50px;
+}
+
+.hot_text {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 35px;
+	color: #f0f0f0
+}
+
+.item_1 {
+	background: url(../img/photo_3.png)no-repeat center center;
+}
+
+.item_2 {
+	background: url(../img/photo_4.png)no-repeat center center;
+}
+
+.item_3 {
+	background: url(../img/photo_5.png)no-repeat center center;
+}
+
+.item_4 {
+	background: url(../img/photo6.png)no-repeat center center;
+}
+
+
+.footer {
+	background: #252627;
+}
+
+.footer_list {
+	display: flex;
+	padding: 30px 0;
+	list-style: none;
+}
+
+.footer_list_text {
+	text-transform: uppercase;
+	margin-right: 35px;
+	font-size: 15px;
+	color: #949494
+}
+
+
+
+
+
+
+
+
