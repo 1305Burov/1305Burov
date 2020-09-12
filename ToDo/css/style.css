@@ -1,0 +1,162 @@
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background: url(../img/bg.jpg);
+	background: top 100px;
+	background-opacity: 0.6;
+}
+.header {
+	
+}
+
+.container {
+	max-width: 1140px;
+	margin: 0 auto;
+}
+
+.logo img {
+	display: block;
+	width: 280px;
+	margin: 0 auto;
+}
+
+.form {
+	display: flex;
+	justify-content: center;
+}
+
+.input {
+	display: block;
+	margin-right: 77px;
+	height: 20px;
+	width: 414px;
+	padding: 8px 20px;
+	border: 2px solid transparent;
+	background: #f3f3f3;
+	border-radius: 20px;
+	outline: none;
+	color: blue;
+	font-size: 16px;
+	font-family: 'Work Sans', sans-serif;
+}
+
+.input__error {
+	border: 2px solid tomato;
+}
+
+.input__error:focus {
+	border: 2px solid tomato !important;
+}
+
+.form__btn {
+	z-index: 10;
+	position: absolute;
+	top:226px;
+	right: 642px;
+	border: none;
+	background: skyblue;
+	border-radius: 20px;
+	padding: 10px 20px;
+	font-size: 14px;
+	letter-spacing: 0.02em;
+	color: #fff;
+	outline: none;
+	transition: background 0.3s ease;
+}
+
+.form__btn:hover {
+	background: #7CB9E8;
+}
+
+.form__btn:active {
+	background: blue;
+}
+
+.input:focus {
+	border: 2px solid skyblue;
+}
+
+.task__list li {
+	display: flex;
+	align-items: center;
+	flex-wrap:wrap;
+	margin: 0px auto;
+	max-width: 574px;
+	padding: 10px 20px;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 400;
+	font-size: 21px;
+	color: #fff;
+}
+
+.task__list i {
+	color: #000;
+	margin-left: 30px;
+	transition: transform 0.3s ease;
+}
+
+.task__list i:hover {
+	transform: scale(1.2);
+}
+
+.task__list-text {
+	width: 440px;
+	background: skyblue;
+	padding: 10px;
+	border-radius: 10px;
+	word-wrap: break-word;
+}
+
+.fa-check-circle {
+	color: #00CC33 !important;
+}
+
+.fa-trash-alt {
+	color: tomato !important; 
+}
+
+.error {
+	z-index: 100;
+	position: absolute;
+	display: block;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 600;
+	font-size: 16px;
+	top: 260px;
+	right: 769px;
+	/*border: 1px solid #000;*/
+	color: tomato;
+	background: #f3f3f3;
+	width: 100px;
+	margin: 10px auto;
+	border-radius: 0px 20px 20px 20px;
+	padding: 10px 20px;
+
+}
+
+.line {
+	text-decoration: line-through;
+	opacity: .4;
+	color: #f8f8f8;
+	background: #33CC66;
+}
+
+.refresh {
+	position: absolute;
+	top:227px;
+	left: 600px;
+	background: skyblue;
+	border-radius: 50px;
+	padding: 10px;
+	color: #fff;
+}
+
+.date {
+	max-width: 82px;
+    text-align: center;
+	font-size: 15px;	
+	color: #000;
+	position: absolute;
+	left: 600px;
+}

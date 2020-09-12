@@ -1,0 +1,27 @@
+* {
+	margin: 0;	
+	padding: 0;	
+	box-sizing: border-box;
+}
+
+.container {
+	padding: 200px;	
+	width: 1140px;	
+	background: #f3f3f3;
+	margin: 0 auto;	
+}
+
+.form {
+	background: silver;
+	padding: 20px;	
+}
+
+.form__list-item {
+	margin: 20px;	
+	padding: 20px 10px;	
+	background: orange;
+}
+
+.complete {
+	background: yellow;
+}
