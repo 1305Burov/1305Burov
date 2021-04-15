@@ -1,0 +1,98 @@
+.slick-track {
+	display: flex;
+}
+
+.slick-list {
+	overflow: hidden;
+}
+
+.slider {
+	position: relative;
+	padding: 0 20px;
+	&__item {
+		position: relative;
+		&_header {
+			    position: absolute;
+    			top: 68%;
+			    right: 5.5%;
+			    padding: 12px 24px;
+			    background: $second_color;
+			    color: #fff;
+			    font-size: 22px;
+			    font-weight: 400;
+		}
+		&_text {
+			width: 351px;
+		    position: absolute;
+		    top: 78%;
+		    right: 5.5%;
+		    background: #fff;
+		    padding: 15px;
+		}
+	}
+}
+
+.slider .slick-arrow {
+	margin: -64px 0 0 0;
+	position: absolute;
+	top: 50%;
+	z-index: 20;
+	font-size: 0;
+	width: 52px;
+	height: 52px;
+	-webkit-box-shadow: 0px 0px 30px 0px rgba(50, 50, 50, 0.5);
+	-moz-box-shadow:    0px 0px 30px 0px rgba(50, 50, 50, 0.5);
+	box-shadow:         0px 0px 30px 0px rgba(50, 50, 50, 0.5);
+	border-radius: 50%;
+}
+
+.slider .slick-arrow.slick-prev {
+	left: 30px;
+	border: none;
+	background: url('../img/arrow_l.svg') 0 0 / 100% no-repeat;
+	transition: background .3s ease;
+	cursor: pointer;
+	&:hover {
+		background: url('../img/arrow_hl.svg') 0 0 / 100% no-repeat;
+	}
+}
+
+.slider .slick-arrow.slick-next {
+	right: 30px;
+	border: none;
+	background: url('../img/arrow_r.svg') 0 0 / 100% no-repeat;
+	transition: background .3s ease;
+	cursor: pointer;
+	&:hover {
+		background: url('../img/arrow_hr.svg') 0 0 / 100% no-repeat;
+	}
+}
+
+.slider .slick-dots {
+	margin-top: 14px;
+	padding-bottom: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-bottom: 1px solid #e2e2e2;	
+	& li {
+		margin: 0 4px;
+		&.slick-active button {
+			padding: 0;
+			height: 15px;
+			background: #fff;
+			border: 3px solid $second_color;
+			border-radius: 50px;
+		}
+	}
+	& button {
+		border: none;
+		font-size: 0;
+		width: 15px;
+		height: 15px;
+		background: $second_color;
+		border-radius: 50px;
+		cursor: pointer;
+	}
+}
+

@@ -1,0 +1,139 @@
+@media screen and (max-width: 1200px) {
+	.header::after {
+		width: 96.8% !important;
+	}
+	
+}
+
+@media screen and (max-width: 1000px) {
+	.about__wrapper {
+    	display: flex;
+   		justify-content: center;
+   		align-items: center;
+    	flex-direction: column;
+	}
+
+	.about__item {
+		margin-top: 40px;	
+	}
+
+	.footer .flex__box {
+   		justify-content: center;
+   		align-items: center;
+   		flex-direction: column;
+	}
+
+	.footer button {
+		width: 100%;
+	}
+
+	.details {
+		margin-top: 40px;	
+	}
+
+	.header::after {
+		width: 96% !important;
+	}		
+}
+
+@media screen and (max-width: 840px) {
+	.hamburger {
+	    display: block;
+	    transform: translateY(-50%);
+	    width: 26px;
+	    height: 12px;
+	    margin: 0 30px 35px 0;
+	    & span {
+    	    display: block;
+		    height: 2px;
+		    width: 100%;
+		    background-color: $second_color;
+		    margin-bottom: 5px;
+		    transition: 0.5s all;
+	    }
+	}
+
+	.header__nav__box {
+		display: none !important;
+	}
+
+	.hamburger_active {
+		position: fixed;
+		right: 0%;
+		z-index: 10000;
+	}
+
+	.hamburger_active span {
+		margin-bottom:-2px
+	}
+
+	.hamburger_active span:nth-child(1) {
+		transform:translateY(3px) rotate(-45deg)
+	}
+
+	.hamburger_active span:nth-child(2){
+		display:none
+	}
+
+	.hamburger_active span:nth-child(3) {
+		transform:translateY(3px) rotate(45deg)
+	}
+
+	.header::after {
+		width: 95% !important;
+	}
+
+	.slider__item_header, 	.slider__item_text  {
+		position: initial !important;
+
+	}
+
+	.slider__item_text {
+		padding-left: 24px !important;
+	}	
+
+}
+
+
+@media screen and (max-width: 720px) {
+	.main__text_top {
+		width: 75% !important;
+   	 	font-size: 18px !important;
+	}
+   
+   .header::after {
+		width: 94% !important;
+	}	
+
+}
+
+
+@media screen and (max-width: 560px) {
+   
+   .header::after {
+		width: 92% !important;
+	}
+
+}
+
+@media screen and (max-width: 560px) {
+	body {
+		font-size: 12px;
+	}
+   
+   .header::after {
+		width: 88% !important;
+	}
+	
+
+	.slider__item_text {
+		width: 240px !important;
+	}
+
+	.about_text, .about_img  {
+		width: 240px !important;
+	}
+
+}
+
+

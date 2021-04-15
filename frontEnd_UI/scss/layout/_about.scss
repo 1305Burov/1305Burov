@@ -1,0 +1,84 @@
+.about {
+	padding: 40px 20px 45px 20px;
+	&__item {
+		& .project .flex__box {
+			align-items: center;
+		}
+		& .project .text {
+			width: 264px;
+			margin-top: 12px;
+		}
+		&__serviceCard {
+			margin-bottom: 20px;
+			& .about_btn {
+				margin-top: 14px;
+			}
+			& .text {
+				width: 188px;
+				margin-top: 15px;
+			}
+			&_img {
+				width: 64px;
+				height: 64px;
+				border-radius: 50%;
+				margin-right: 20px;
+				background: $second_color;
+				text-align: center;
+				
+				& img {
+					width: 32px;
+					height: 32px;
+					margin-top: 16px;
+
+				}
+			}
+		}
+	}
+	&__wrapper {
+		display: flex;
+		justify-content: space-between;
+	}
+	&_img {
+		width: 360px;
+		height: 220px;
+		outline: 1px solid #e2e2e2;
+		outline-offset: 4px;
+	}
+	&_text {
+		margin-top: 20px;
+		width: 360px;
+		font-size: 13px;
+		color: #999;
+		line-height: 18.2px;
+	}
+	&_btn {
+		font-size: 13px;
+		line-height: 13px;
+		color: $second_color;
+		margin-top: 20px;
+		float: right;
+		cursor: pointer;
+		&:hover {
+			color: $active_color;
+		}
+	}
+}
+
+.heading {
+	font-size: 16px;
+	line-height: 19.2px;
+	color: #989898;
+	& span {
+		font-weight: 600;
+		margin-left: 12px;
+	}
+}
+
+.project {
+	&:last-child {
+		margin-top: 48px;
+	}
+	& .about_btn {
+		margin-top: 10px;
+	}
+}
