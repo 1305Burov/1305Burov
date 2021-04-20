@@ -55,6 +55,9 @@
 	&:hover {
 		background: url('../img/arrow_hl.svg') 0 0 / 100% no-repeat;
 	}
+	&:active {
+		background: url('../img/arrow_l.svg') 0 0 / 100% no-repeat;
+	}
 }
 
 .slider .slick-arrow.slick-next {
@@ -65,6 +68,10 @@
 	cursor: pointer;
 	&:hover {
 		background: url('../img/arrow_hr.svg') 0 0 / 100% no-repeat;
+	}
+
+	&:active {
+		background: url('../img/arrow_r.svg') 0 0 / 100% no-repeat;
 	}
 }
 

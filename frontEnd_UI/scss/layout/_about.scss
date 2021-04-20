@@ -52,6 +52,7 @@
 		line-height: 18.2px;
 	}
 	&_btn {
+		user-select: none;
 		font-size: 13px;
 		line-height: 13px;
 		color: $second_color;
@@ -60,6 +61,9 @@
 		cursor: pointer;
 		&:hover {
 			color: $active_color;
+		}
+		&:active {
+			color: $second_color;
 		}
 	}
 }

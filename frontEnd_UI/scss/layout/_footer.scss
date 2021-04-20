@@ -26,6 +26,10 @@
 		color: #989898;
 		margin-bottom: 10px;
 		font-family: Georgia;
+		border: 1px solid transparent;
+		&:focus {
+			border: 1px solid $second_color;
+		}
 	}
 	& input {
 		font-family: Georgia;
@@ -37,8 +41,12 @@
 		font-size: 13px;
 		color: #989898;
 		margin-bottom: 10px;
+		border: 1px solid transparent;
 		&:first-child {
 			margin-top: 20px;
+		}
+		&:focus {
+			border: 1px solid $second_color;
 		}
 	}
 	& button {
@@ -54,6 +62,9 @@
 		cursor: pointer;
 		&:hover {
 			background-color: $active_color;
+		}
+		&:active {
+			background-color: $second_color;
 		}
 	}
 }
@@ -80,10 +91,14 @@
 		color: #999999;
 
 		& span {
+			user-select: none;
 			color: $second_color;
 			cursor: pointer;
 			&:hover {
 				color: $active_color;
+			}
+			&:active {
+				color: $second_color;
 			}
 		}
 		& li {
