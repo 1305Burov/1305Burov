@@ -39,7 +39,22 @@ function select(data) {
 		
 	}
 
-	$select.addEventListener('click', function (e) {
+
+	if ($select) {
+		$matches.innerHTML = '';
+		for (let j = 0; j < data.length; j++) {
+			if ($select.children[0].value == data[j]['name'][0].toLowerCase()) {
+				$matches.innerHTML += `<div class="matches__item">${data[j]['name']}</div>`;
+			}
+		}
+
+		if ($matches.innerHTML == '') {
+			$matches.innerHTML = "no matches";
+		}
+	}
+		
+
+	$select.addEventListener('change', function (e) {
 		$matches.innerHTML = '';
 		for (let j = 0; j < data.length; j++) {
 			if (e.target.value == data[j]['name'][0].toLowerCase()) {
