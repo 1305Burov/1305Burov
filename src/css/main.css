@@ -1,0 +1,53 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: #635854;
+  border-bottom: 4px solid #3596F5;
+  padding: 12px 0;
+}
+
+.header__navbar {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__navbar_menu {
+  display: flex;
+  text-align: center;
+}
+
+.header__navbar_item {
+  margin: 0 40px;
+}
+
+.header__navbar_link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.header__navbar_contacts {
+  text-align: right;
+}
+
+.header__navbar_text {
+  display: block;
+  color: #fff;
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+
+.header__navbar_phone {
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 20px;
+  color: #fff;
+  text-decoration: none;
+}
