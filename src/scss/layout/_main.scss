@@ -1,0 +1,60 @@
+.main {
+	padding-top: 54px;
+	display: flex;
+	&__info {
+		display: flex;
+		flex-grow: 1;
+		justify-content: space-around;
+		text-align: center;
+		flex-direction: column;
+		align-items: center;
+		&_title {
+			font-family: "Bebas Neue", sans-serif;
+			font-weight: normal;
+			font-size: 37px;	
+			line-height: 37px;
+			color: #635854;
+		}
+	}
+}
+
+.home-image path {
+	opacity: 0;
+	cursor: pointer;
+	&:hover {
+		opacity: 1;
+	}
+}
+
+path.current-floor {
+	opacity: 1;
+}
+
+.counter {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	&_btn {
+		cursor: pointer;
+		background-color: #fff;
+		border: none;
+	}
+	&_arrow_down {
+		transform: rotateX(180deg);
+	}
+	&_num {
+		color: #635854;
+		font-family: "Bebas Neue", sans-serif;
+		font-size: 124px;
+		margin: 10px 0;
+	}
+}
+
+.primary {
+	background-color: #3596F5;
+	border-radius: 6px;
+	border: none;
+	cursor: pointer;
+	color: #fff;
+	padding: 16px 36px;
+}
