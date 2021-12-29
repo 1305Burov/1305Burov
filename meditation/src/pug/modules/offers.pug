@@ -1,0 +1,9 @@
+block offers
+    section.container.offers#Explore
+        - var cardText = ['There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.', ' It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.', ' It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing.']
+        each card in [{bg: 'card-1', src: 'img/ic_meditation.webp', heading: 'Meditation', text: cardText[0]}, {bg: 'card-2', src: 'img/ic_yoga.webp', heading: 'Yoga', text: cardText[1]}, {bg: 'card-3', src: 'img/ic_sound.webp', heading: 'Sound',text: cardText[2]}]
+            div(class='offers__card ' + card.bg)
+                img(class='offers__card_img' src=card.src, alt="meditation")
+                h3.offers__card_heading= card.heading
+                p.offers__card_text= card.text
+                button.learnMore_btn Learn More

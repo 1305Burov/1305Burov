@@ -1,0 +1,14 @@
+block practice
+    section.practice#Classes
+        .container
+            h2.practice_heading Practice Wherever You Want, Whenever You Need
+            p.practice_text “These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best.”
+            div.practice__content
+                img(src="img/practice.webp", alt="yoga illustration")
+                ul.practice__list
+                    - var practiceTexts = ['There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form by injected.', 'Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally can procure him some great pleasure.', 'It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s']
+                    each list in [{heading: 'Meditation Wind', text: practiceTexts[0]}, {heading: 'Strees Reduction', text: practiceTexts[1]}, {heading: 'Self Compassion', text: practiceTexts[2]}]
+                        li.practice__list_item
+                            h3.practice__list_heading= list.heading
+                            p.practice__list_text= list.text
+                            button.practice__list_btn 

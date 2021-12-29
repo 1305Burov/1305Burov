@@ -1,0 +1,35 @@
+body {
+  font-family: "Heebo", sans-serif;
+  background-color: #E2F5F2;
+  user-select: none;
+}
+
+h2 {
+  font-family: "Merienda One", cursive;
+  font-size: 54px;
+  color: #000;
+  line-height: 130%;
+  font-weight: 400;
+}
+
+h3 {
+  font-size: 32px;
+  font-weight: 500;
+}
+
+p {
+  font-size: 24px;
+  color: #000;
+  opacity: 0.5;
+  line-height: 130%;
+}
+
+.container {
+  max-width: 1620px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}

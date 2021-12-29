@@ -1,0 +1,12 @@
+block footer
+    footer.footer
+        img(src="img/logo.webp", alt="logo")
+        nav.footer__nav
+            ul.footer__nav__list 
+                each name in [['Home', 'Home'], ['Explore', 'Explore'], ['Classes', 'Classes'], ['About', 'About Us'], ['Privacy', 'Privacy'], ['Services', 'Services']]
+                    li.footer__nav__list_item
+                        a(class="footer__nav__list_item_link", href="#"+name[0]+"")= name[1]
+        div.footer__social
+            each icon in ['facebook', 'instagram', 'twitter']
+                a(class="footer__social_link", href="https://www."+icon+'.com', target="_blank")
+                    img(src="img/ic_"+icon+'.webp', alt="")                    

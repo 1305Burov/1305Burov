@@ -1,0 +1,16 @@
+block music
+    section.music.container#About
+        h2.music_heading Take a Deep Breath
+        p.music_text “Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore.”
+        div.music__content
+            div.music__player
+                -var headers = ['Turning off Auto Pilot', 'Crazy Wind Sound','Mental Wellness']
+                -var text = ['Intriduction, Strees Assesment', 'Relex Mind','Strees Relief']
+                each name, index in [{header: headers[0], text: text[0]}, {header: headers[1], text: text[1]}, {header: headers[2], text: text[2]}]
+                    div.music__player__item
+                        div
+                            h3.music__player__item_heading= name.header
+                            p.music__player__item_text= name.text
+                        div(class="music__player__item_btn", id=""+index+"")
+                        audio(src="../music/"+index+".mp3" class="audio" id="music_"+index+"")
+            img(class='music__img' src="img/music.webp", alt="music illustration")                  

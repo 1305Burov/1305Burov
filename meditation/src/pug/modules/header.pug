@@ -1,0 +1,19 @@
+block header 
+    header.header
+        div.container
+            div.header_wrapper
+                a(class='header__logo', onclick='document.querySelector(".header__nav_list__item_link").click()' )
+                    img(src="img/logo.webp", class="header__logo__img")
+                nav.header__nav
+                    ul.header__nav_list
+                        each name in [['Home', 'Home'], ['Explore', 'Explore'], ['Classes', 'Classes'], ['About', 'About Us'], ['Privacy', 'Privacy'], ['Services', 'Services']]
+                            li.header__nav_list__item
+                                a(href="#"+name[0]+"", class='header__nav_list__item_link')= name[1]
+                ul.menu
+                    each name in [['Home', 'Home'], ['Explore', 'Explore'], ['Classes', 'Classes'], ['About', 'About Us'], ['Privacy', 'Privacy'], ['Services', 'Services']]
+                        li.menu__item
+                            a(href="#"+name[0]+"", class='menu__item_link')= name[1]
+                div.ham
+                    span
+                    span
+                    span
