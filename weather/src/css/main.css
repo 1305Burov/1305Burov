@@ -1,0 +1,187 @@
+@charset "UTF-8";
+body {
+  background: #212121;
+  font-family: 'Nunito', sans-serif;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.jc-c {
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.p-relative {
+  position: relative;
+}
+
+.slider-container {
+  width: 1280px;
+  margin: 100px auto;
+}
+
+.slider-container .main__box_weather {
+  margin-left: 0 !important;
+}
+
+.slick-slide {
+  cursor: pointer;
+}
+
+.bor-l {
+  border-left: 2px solid;
+}
+
+.error {
+  border: 2px solid #EC4C4C !important;
+  background-color: #E8B8B8;
+}
+
+.error_text {
+  position: relative;
+}
+
+.error_text:after {
+  content: 'Город не найден';
+  position: absolute;
+  top: -20px;
+  left: 20px;
+}
+
+.error_symbols {
+  position: relative;
+}
+
+.error_symbols:after {
+  content: 'Введенны запрещенные символы';
+  position: absolute;
+  top: -20px;
+  left: 20px;
+}
+
+@media screen and (max-width: 480px) {
+  .box__weather {
+    display: block;
+  }
+  .main__box {
+    padding-bottom: 50px;
+  }
+  .main__box_search {
+    max-width: 300px;
+  }
+  .main__box_features li:first-child {
+    margin-top: 32px;
+  }
+  .slider-container {
+    width: 280px !important;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .main__box_search {
+    max-width: 280px;
+  }
+  .slider-container {
+    width: 280px !important;
+  }
+}
+
+.main {
+  text-align: center;
+  color: #fff;
+}
+
+.main__logo {
+  display: block;
+  margin: 50px 0 50px 0;
+}
+
+.main__box {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main__box_search {
+  box-sizing: border-box;
+  width: 400px;
+  height: 40px;
+  padding: 10px 18px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 18px;
+  border-radius: 20px;
+  border: 2px solid transparent;
+}
+
+.main__box_search:focus {
+  box-shadow: 0px 0px 10px 0px rgba(255, 165, 0, 0.5);
+}
+
+.main__box_btn {
+  cursor: pointer;
+  background: url(../img/search-icon.svg) no-repeat center #EC6E4C;
+  border: 0;
+  padding: 10px 21px;
+  border-radius: 20px;
+  position: absolute;
+  right: 0;
+  top: 1px;
+}
+
+.main__box_btn:active {
+  background-color: #C45234;
+}
+
+.main__box_location {
+  display: block;
+  margin: 20px 0 0 0;
+  color: #EC6E4C;
+  opacity: .8;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.main__box_location:hover {
+  opacity: 1;
+}
+
+.main__box_city {
+  margin: 48px 0 10px 0;
+}
+
+.main__box_city span {
+  font-size: 36px;
+  font-weight: 400;
+}
+
+.main__box_weather {
+  margin: 0 0 20px 0;
+}
+
+.main__box_weather span {
+  font-weight: 300;
+}
+
+.main__box_degrees {
+  margin: 26px 0 20px 0px;
+}
+
+.main__box_degrees span {
+  font-size: 56px;
+}
+
+.main__box_time {
+  margin: 20px 0 0 0;
+}
+
+.main__box_features {
+  text-align: left;
+  margin-left: 40px;
+}
+
+.main__box_features li {
+  margin-top: 12px;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,700;1,400&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/slick.css">
+	<link rel="stylesheet" href="css/slick-theme.css">
+	<link rel="stylesheet" href="css/main.min.css">
+	<title>Погода</title>
+</head>
+<body>
+	<main class="main">
+		<div class="main__box">
+			<img class="main__logo" src="img/logo.svg">
+			<div class="d-flex p-relative" id="inputWrapper">
+				<input class="main__box_search" id="citySearch" type="text" placeholder="Введите город">
+				<input class="main__box_btn" id="searchBtn" type="submit" value="">
+			</div>
+				<span class="main__box_location">геолокация включенна</span>
+
+			<div class="main__box_city"><span> </span></div>
+			<div class="main__box_weather"><span> </span></div>
+			<div class="d-flex jc-c box__weather">
+				<div>
+					<div class="d-flex jc-c">
+                        <div class="d-flex jc-c">
+                            <div class="main__box_img"> </div>
+						    <div div class="main__box_degrees"><span> </span></div>
+                        </div>
+						<ul class="main__box_features">
+                            <li class="main__box_feels"> </li>
+                            <li class="main__box_pressure"> </li>
+                            <li class="main__box_humidity"> </li>
+                            <li class="main__box_wind"> </li>
+                        </ul>
+                        
+                    </div>
+                    <div class="main__box_time"><span></span></div>
+                </div>
+            </div>
+
+            <div class="slider slider-container">
+            
+            </div>
+        </div>
+    </main>
+    
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/slider.js"></script>
+    <script src="js/main.js"></script>
+</body>
