@@ -52,4 +52,4 @@ function promo(code) {
 }
 
 
-console.log(promo(16816445));
+document.write(`Ваш бонус: ${promo(16816445)}`);
