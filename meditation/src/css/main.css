@@ -272,7 +272,7 @@ a {
   padding: 40px 0;
   text-align: center;
   background-color: #52C6B3;
-  background-image: url(/img/bg_modal.webp);
+  background-image: url(../img/bg_modal.webp);
   background-repeat: no-repeat;
   background-position: 100% 100%;
   border-radius: 15px;
@@ -292,7 +292,7 @@ a {
   height: 30px;
   border: none;
   background: transparent;
-  background-image: url(/img/close_btn.webp);
+  background-image: url(../img/close_btn.webp);
   cursor: pointer;
 }
 
@@ -410,7 +410,7 @@ a {
   flex-direction: column;
   padding-top: 200px;
   text-align: center;
-  background-image: url(/img/BG_hero.webp);
+  background-image: url(../img/BG_hero.webp);
   background-repeat: no-repeat;
   background-position: 100% 100%;
 }
@@ -490,21 +490,21 @@ a {
 }
 
 .card-1 {
-  background-image: url(/img/bg_card-1.webp);
+  background-image: url(../img/bg_card-1.webp);
 }
 
 .card-2 {
-  background-image: url(/img/bg_card-2.webp);
+  background-image: url(../img/bg_card-2.webp);
 }
 
 .card-3 {
-  background-image: url(/img/bg_card-3.webp);
+  background-image: url(../img/bg_card-3.webp);
 }
 
 .practice {
   margin-top: 80px;
   text-align: center;
-  background-image: url(/img/practice_section_bg.webp);
+  background-image: url(../img/practice_section_bg.webp);
   background-repeat: no-repeat;
   background-position: 100% 100%;
 }
@@ -542,7 +542,7 @@ a {
 }
 
 .practice__list_item:hover {
-  background-image: url(/img/bg_practice.webp);
+  background-image: url(../img/bg_practice.webp);
   background-repeat: no-repeat;
 }
 
@@ -568,7 +568,7 @@ a {
   background-color: transparent;
   float: right;
   border: 0;
-  background-image: url(/img/arrow.webp);
+  background-image: url(../img/arrow.webp);
   background-repeat: no-repeat;
   background-position: 100% 100%;
   cursor: pointer;
@@ -576,7 +576,7 @@ a {
 
 .music {
   text-align: center;
-  background-image: url(/img/music_bg1.webp);
+  background-image: url(../img/music_bg1.webp);
   background-repeat: no-repeat;
   background-position: 15% 115%;
 }
@@ -605,7 +605,7 @@ a {
   margin-bottom: 50px;
   text-align: left;
   padding: 30px 40px;
-  background-image: url(/img/music_border.webp), url(/img/music_bg.webp);
+  background-image: url(../img/music_border.webp), url(../img/music_bg.webp);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: 15px;
@@ -618,7 +618,7 @@ a {
 .music__player__item_btn {
   width: 80px;
   height: 80px;
-  background: url(/img/player.webp) no-repeat center, linear-gradient(180deg, #259385 0%, #159685 100%);
+  background: url(../img/player.webp) no-repeat center, linear-gradient(180deg, #259385 0%, #159685 100%);
   box-shadow: 0px 25px 30px rgba(179, 228, 221, 0.3), 0px 9px 24px rgba(26, 127, 114, 0.23);
   border-radius: 40px;
   cursor: pointer;
@@ -626,19 +626,19 @@ a {
 }
 
 .music__player__item_btn:hover {
-  background: url(/img/player.webp) no-repeat center, linear-gradient(180deg, #259385 0%, #128A7B 100%);
+  background: url(../img/player.webp) no-repeat center, linear-gradient(180deg, #259385 0%, #128A7B 100%);
 }
 
 .paused {
-  background: url(/img/pause.webp) no-repeat center, linear-gradient(180deg, #259385 0%, #159685 100%);
+  background: url(../img/pause.webp) no-repeat center, linear-gradient(180deg, #259385 0%, #159685 100%);
 }
 
 .paused:hover {
-  background: url(/img/pause.webp) no-repeat center, linear-gradient(180deg, #259385 0%, #128A7B 100%);
+  background: url(../img/pause.webp) no-repeat center, linear-gradient(180deg, #259385 0%, #128A7B 100%);
 }
 
 .meditation {
-  background-image: url(/img/Background_meditation.webp);
+  background-image: url(../img/Background_meditation.webp);
   background-repeat: no-repeat;
   text-align: center;
   padding: 70px 0;
@@ -678,7 +678,7 @@ a {
   padding: 0 35px;
   min-width: 480px;
   min-height: 200px;
-  background-image: url(/img/bg_meditation_left.webp);
+  background-image: url(../img/bg_meditation_left.webp);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: 100% 0;
@@ -704,7 +704,7 @@ a {
   padding: 0 35px;
   min-width: 480px;
   min-height: 200px;
-  background-image: url(/img/bg_meditation_right.webp);
+  background-image: url(../img/bg_meditation_right.webp);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: 0% 0;
@@ -713,7 +713,7 @@ a {
 
 .transform {
   text-align: center;
-  background-image: url(/img/bg_transform.webp);
+  background-image: url(../img/bg_transform.webp);
   background-repeat: no-repeat;
   background-position: 100%;
 }
@@ -759,7 +759,7 @@ a {
 
 .footer {
   text-align: center;
-  background-image: url(/img/bg_footer.webp);
+  background-image: url(../img/bg_footer.webp);
   background-repeat: no-repeat;
   padding-top: 120px;
 }

@@ -99,7 +99,7 @@ playPlayer.addEventListener('click', (e) => {
         });
     }
     
-})
+});
 
 //Music plater END
 
@@ -118,7 +118,7 @@ const menu = document.querySelector('.menu'),
         item.addEventListener('click', () => {
             ham.classList.toggle('ham_active');
             menu.classList.toggle('menu_active');
-        })
-    })
+        });
+    });
     
 //Ham menu  END
